@@ -1,7 +1,9 @@
-import '../styles/globals.css'
+import '../styles/legacyGalleryModule.css'
+import '../styles/project.css'
+import '../styles/layout.min.css'
+import '../styles/style.min.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const App = ({ Component, pageProps }) =>
+    <Component {...pageProps} />
 
-export default MyApp
+export default App

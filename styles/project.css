@@ -1,0 +1,22 @@
+.caption {
+    margin-top: -460px;
+}
+
+.slider {
+    height: 88px;
+    width: 125px;
+    color: #fff;
+    display: flex;
+    /*overflow: hidden;*/
+}
+
+.slider img {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+[data-hs-cos-type="custom_widget"]{
+    display: table;
+    width: 570px;
+}
+
